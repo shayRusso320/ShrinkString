@@ -10,6 +10,7 @@ def shrink_string(st):
             reps = 1
         else:
             reps += 1
+    new_string += lastChar + str(reps)
     return new_string  
             
 string = 'aabbbbcdddeaaaaa'
